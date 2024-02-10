@@ -29,6 +29,7 @@ L:RegisterTranslations("enUS", function() return {
 	watchwarn = " is being watched!",
 	watchwarnyou = "You are being watched!",
 	you = "You",
+	are = "are",
 } end )
 
 L:RegisterTranslations("deDE", function() return {
@@ -111,7 +112,7 @@ end
 function module:CHAT_MSG_MONSTER_EMOTE( msg )
 	local _, _, player = string.find(msg, L["watchtrigger"])
 	if player then
-		if player == L["you"] and self.db.profile.you then
+		if player == L["you"] and type == L["are"] and self.db.profile.you then
 			player = UnitName("player")
 			self:Message(L["watchwarnyou"], "Personal", true, "RunAway")
 			self:Message(UnitName("player") .. L["watchwarn"], "Attention", nil, nil, true)
