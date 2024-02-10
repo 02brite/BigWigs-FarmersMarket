@@ -8,7 +8,7 @@ The following events have potential interactions with the name "You" and notes f
 - Jindo - Shades - checks playername - should function
 - Mandokir - Gaze - could check for "you" at end of gaze - minimal effect
 - Buru - Follow - Checks for "You" and players with assist mark themselves as skull - <b>MODIFIED FILE</b> changed to check for "you" and "are"
-- Anubisath Guardians - Plague - checks for "you" and "are" - model for aq40 guardian changes
+- Anubisath Guardians - Plague - checks for "you" and "are" - model for aq40 defender changes
 - Baron Geddon - Living Bomb - checks for "you" and "are" - should be fine
 - Vaelastrasz - Burning Adrenaline - checks for only "are" - possible model for all "you" + "are" checks
 - Anubisath Defenders - Plague - checks for "You" - <b>MODIFIED FILE</b> changed to check for "you" and "are" as is done in Anubisath Guardians.
