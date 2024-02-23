@@ -246,7 +246,7 @@ end
 
 function module:CheckPlague(msg)
 	local _,_, pplayer, ptype = string.find(msg, L["plaguetrigger"])
-	if pplayer then
+	if pplayer and type then
 		if self.db.profile.plagueyou and pplayer == L["plagueyou"] and type == L["plagueare"] then -- NOCTRE
 			self:Message(L["plagueyouwarn"], "Personal", true, "RunAway")
 			self:Message(UnitName("player") .. L["plaguewarn"], "Attention", nil, nil, true)
