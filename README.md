@@ -17,15 +17,8 @@ The following events have potential interactions with the name "You" and notes f
 - Kel'Thuzad - Affliction/Detonate trigger - checks for both "you" and "are" in both events. - should function
 <br>
 This was purposefully not properly forked because no one really needs this except our raiders.<br>
-I have no formal training, feel free to help me out with advice!<br>
 
-## KNOWN ISSUE
-The Buru event will not work with Spanish or German game clients.<br>
-<b>Only players using an English Turtle WoW client should use this AddOn.</b><br>
-If you have a Spanish or German client, you have no need for this until someone gets the name "Tu" or "Euch".<br>
-
-
-## Basic Installation Instructions
+## Installation Instructions
 - Download manually via github -> click on the green button that says <>Code, then click Download ZIP
 - Open your downloads folder then extract the file called BigWigs-FarmersMarket-main.zip
 - <b>Open the folder called BigWigs-FarmersMarket-main</b>
@@ -38,6 +31,7 @@ If you have a Spanish or German client, you have no need for this until someone 
 
 ## Contributing
 If you would like to contribute, just open a pull request.
+I have no formal training, feel free to help me out with advice!<br>
 
 ## Language support
 Currently, only english clients are supported. In general, the Addon can work with other languages, but this support is only provided on a best-effort basis. It is much effort to support those languages. Feel free to contribute if you would like to have support for other languages.
