@@ -25,11 +25,16 @@ The Buru event will not work with Spanish or German game clients.<br>
 If you have a Spanish or German client, you have no need for this until someone gets the name "Tu" or "Euch".<br>
 
 
-## How to install
-- Download manually via github (click on Clone or Download -> Download ZIP.
-- Delete old Bigwigs or !BigWigs folder
-- Place "BigWigs" folder in gamefolder>Interface>AddOns
-- Place "Fonts" folder in [original gamefolder directory](https://github.com/balakethelock/BigWigs/assets/111737968/2cddcb31-b318-4e6a-9203-413195a34c8d)
+## Basic Installation Instructions
+- Download manually via github -> click on the green button that says <>Code, then click Download ZIP
+- Open your downloads folder then extract the file called BigWigs-FarmersMarket-main.zip
+- <b>Open the folder called BigWigs-FarmersMarket-main</b>
+- You should see a folder called BigWigs, another called Fonts, and two other files which you can ignore.
+- In a separate File Explorer window open your main Turtle WoW folder where the EXE file is located that you use to launch the game
+- Move the Fonts folder from your downloaded folder into the primary TWOW folder so it is in the same folder as the EXE
+- Open your Interface folder then navigate to your AddOns folder
+- <b>Delete the old version of Bigwigs or !BigWigs or BigWigs-TurtleWoW folder</b>
+- Place BigWigs folder from the downloaded folder into your AddOns folder.
 
 ## Contributing
 If you would like to contribute, just open a pull request.
